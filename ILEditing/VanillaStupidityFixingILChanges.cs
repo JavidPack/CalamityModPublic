@@ -289,7 +289,7 @@ namespace CalamityMod.ILEditing
 
             // Sync the color changes.
             if (colorWasChanged)
-                NetMessage.SendData(MessageID.ItemTweaker, -1, -1, null, itemID, 1f);
+                NetMessage.SendData(MessageID.ItemTweaker, -1, -1, null, itemIndex, 1f);
         }
         #endregion Color Blighted Gel
 
